@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="array_prov2">
+        <item>99-TODAS</item>
+        <item>32-A CORUÑA</item>
+        <item>48-ALAVA</item>
+        <item>10-ALBACETE</item>
+        <item>53-ALICANTE</item>
+        <item>43-ALMERIA</item>
+        <item>21-ASTURIAS</item>
+        <item>07-AVILA</item>
+        <item>08-BADAJOZ</item>
+        <item>09-BALEARES</item>
+        <item>03-BARCELONA</item>
+        <item>04-BILBAO</item>
+        <item>11-BURGOS</item>
+        <item>12-CACERES</item>
+        <item>13-CADIZ</item>
+        <item>14-CANTABRIA</item>
+        <item>15-CASTELLON</item>
+        <item>16-CEUTA</item>
+        <item>17-CIUDAD REAL</item>
+        <item>18-CORDOBA</item>
+        <item>19-CUENCA</item>
+        <item>20-GIRONA</item>
+        <item>06-GRANADA</item>
+        <item>22-GUADALAJARA</item>
+        <item>23-GUIPUZCOA</item>
+        <item>24-HUELVA</item>
+        <item>25-HUESCA</item>
+        <item>26-JAEN</item>
+        <item>27-LA RIOJA</item>
+        <item>28-LAS PALMAS</item>
+        <item>29-LEON</item>
+        <item>30-LLEIDA</item>
+        <item>31-LUGO</item>
+        <item>01-MADRID</item>
+        <item>33-MALAGA</item>
+        <item>34-MELILLA</item>
+        <item>35-MURCIA</item>
+        <item>36-NAVARRA</item>
+        <item>37-OURENSE</item>
+        <item>38-PALENCIA</item>
+        <item>39-PONTEVEDRA</item>
+        <item>40-SALAMANCA</item>
+        <item>41-TENERIFE</item>
+        <item>42-SEGOVIA</item>
+        <item>05-SEVILLA</item>
+        <item>44-SORIA</item>
+        <item>45-TARRAGONA</item>
+        <item>46-TERUEL</item>
+        <item>47-TOLEDO</item>
+        <item>02-VALENCIA</item>
+        <item>49-VALLADOLID</item>
+        <item>50-VIZCAYA</item>
+        <item>51-ZAMORA</item>
+        <item>52-ZARAGOZA</item>
+
+
+
+
+
+    </string-array>
+
+
+</resources>

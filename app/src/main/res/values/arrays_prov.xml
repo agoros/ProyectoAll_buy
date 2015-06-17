@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="array_prov">
+        <item>TODAS</item>
+        <item>A CORUÑA</item>
+        <item>ALAVA</item>
+        <item>ALBACETE</item>
+        <item>ALICANTE</item>
+        <item>ALMERIA</item>
+        <item>ASTURIAS</item>
+        <item>AVILA</item>
+        <item>BADAJOZ</item>
+        <item>BALEARES</item>
+        <item>BARCELONA</item>
+        <item>BURGOS</item>
+        <item>CACERES</item>
+        <item>CADIZ</item>
+        <item>CANTABRIA</item>
+        <item>CASTELLON</item>
+        <item>CEUTA</item>
+        <item>CIUDAD REAL</item>
+        <item>CORDOBA</item>
+        <item>CUENCA</item>
+        <item>GIRONA</item>
+        <item>GRANADA</item>
+        <item>GUADALAJARA</item>
+        <item>GUIPUZCOA</item>
+        <item>HUELVA</item>
+        <item>HUESCA</item>
+        <item>JAEN</item>
+        <item>LA RIOJA</item>
+        <item>LAS PALMAS</item>
+        <item>LEON</item>
+        <item>LLEIDA</item>
+        <item>LUGO</item>
+        <item>MADRID</item>
+        <item>MALAGA</item>
+        <item>MELILLA</item>
+        <item>MURCIA</item>
+        <item>NAVARRA</item>
+        <item>OURENSE</item>
+        <item>PALENCIA</item>
+        <item>PONTEVEDRA</item>
+        <item>SALAMANCA</item>
+        <item>TENERIFE</item>
+        <item>SEGOVIA</item>
+        <item>SEVILLA</item>
+        <item>SORIA</item>
+        <item>TARRAGONA</item>
+        <item>TERUEL</item>
+        <item>TOLEDO</item>
+        <item>VALENCIA</item>
+        <item>VALLADOLID</item>
+        <item>VIZCAYA</item>
+        <item>ZAMORA</item>
+        <item>ZARAGOZA</item>
+
+    </string-array>
+</resources>

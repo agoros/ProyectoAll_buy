@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:visibility="visible"
+    android:background="#FFFFFF">
+
+
+        <EditText android:id="@+id/TxtImagenHintBuscar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="artículo a buscar"
+            android:textColorHint="#ffa5b0cf"
+            android:singleLine="false"
+            android:inputType="text"
+            android:ellipsize="end"
+            android:layout_alignParentTop="true" />
+
+
+        <Spinner
+            android:id="@+id/CmbOpciones"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/TxtImagenHintBuscar"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+
+
+    <Button
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="139dp"
+        android:layout_height="35dp"
+        android:text="Buscar"
+        android:id="@+id/button"
+        android:layout_gravity="center_horizontal"
+        android:textColor="#fffbfffb"
+        android:typeface="normal"
+        android:background="#3F51B5"
+        android:layout_below="@+id/CmbOpciones"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="23dp" />
+
+    <GridView android:id="@+id/GridArticulos"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:numColumns="1"
+        android:columnWidth="80dp"
+        android:horizontalSpacing="0dp"
+        android:stretchMode="columnWidth"
+        android:layout_marginTop="42dp"
+        android:layout_below="@+id/button"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="ULTIMAS PUBLICACIONES"
+        android:id="@+id/textView"
+        android:textColor="#fffbfffb"
+        android:background="#ffff7d35"
+        android:layout_below="@+id/button"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="20dp"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="New Text"
+        android:id="@+id/textView6"
+        android:layout_below="@+id/CmbOpciones"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:visibility="invisible" />
+
+
+</RelativeLayout>

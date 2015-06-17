@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:visibility="visible"
+    android:background="#FFFFFF"
+    android:orientation="vertical">
+
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/iView2"
+        android:layout_gravity="center"
+        android:layout_centerHorizontal="true" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="PRODUCTO"
+        android:id="@+id/txtViewProd"
+        android:layout_below="@+id/iView2"
+        android:textStyle="bold"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="PROVINCIA"
+        android:id="@+id/txtViewProv"
+        android:layout_below="@+id/txtViewProd"
+        android:textStyle="bold"
+
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="PRECIO:"
+        android:id="@+id/txtViewPrecio"
+        android:textStyle="bold"
+        android:layout_below="@+id/txtViewProv"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="FINALIZA:"
+        android:id="@+id/txtViewFin"
+        android:textStyle="bold"
+        android:layout_below="@+id/txtViewPrecio"
+      />
+
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="DETALLE CAMPAÑA"
+        android:id="@+id/TxtVwDetCamp"
+        android:textStyle="bold"
+        android:layout_centerVertical="true"
+        android:layout_below="@+id/txtViewFin"
+
+         />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtViewDetallCamp"
+
+        android:textSize="25px"
+        android:layout_row="0"
+        android:layout_column="7"
+        android:layout_below="@+id/TxtVwDetCamp"
+        />
+
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="PARTICIPA"
+        android:id="@+id/button2Participa"
+
+        android:layout_row="2"
+        android:layout_column="3"
+        android:background="#3F51B5"
+        android:textColor="#fffbfffb"
+        android:layout_alignParentBottom="true"
+        android:layout_toRightOf="@+id/TxtVwDetCamp"
+        android:layout_toEndOf="@+id/TxtVwDetCamp"
+        android:layout_marginBottom="107dp" />
+
+</RelativeLayout>

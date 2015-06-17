@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="array_categ_a_prod">
+        <item>@array/productos_TELEFONIA</item>
+        <item>@array/productos_HOGAR</item>
+        <item>@array/productos_ELECTRONICA</item>
+        <item>@array/productos_ALIMENTACION</item>
+    </array>
+
+    <string-array name="categorias">
+    <item>1-TELEFONIA</item>
+    <item>2-HOGAR</item>
+    <item>3-ELECTRONICA</item>
+    <item>4-ALIMENTACION</item>
+    </string-array>
+
+    <string-array name="productos_TELEFONIA">
+        <item>1-SAMSUNG GALAXY S 6</item>
+    </string-array>
+
+    <string-array name="productos_HOGAR">
+        <item>6-DETERGENTE</item>
+    </string-array>
+
+    <string-array name="productos_ELECTRONICA">
+        <item>2-TV 40 LED PANASONIC</item>
+        <item>4-TV 32 LG</item>
+    </string-array>
+    <string-array name="productos_ALIMENTACION">
+        <item>3-NARANJAS</item>
+        <item>5-LIMONES</item>
+    </string-array>
+
+
+
+
+
+
+
+
+</resources>

@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1">
+
+    <TextView
+        android:id="@+id/tv_provincia"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="CATEGORIA" />
+
+    <Spinner
+        android:id="@+id/sp_provincia"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:prompt="@string/provincia_prompt"
+        android:spinnerMode="dropdown" />
+    <TextView
+        android:id="@+id/tv_provin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="PROVINCIA" />
+
+    <Spinner
+        android:id="@+id/prv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:spinnerMode="dropdown" />
+
+    <TextView
+        android:id="@+id/tv_localidad"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="PRODUCTO" />
+
+    <Spinner
+        android:id="@+id/sp_localidad"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:prompt="@string/localidad_prompt"
+        android:spinnerMode="dropdown" />
+
+    <TextView
+        android:id="@+id/detalleCamp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Detalle campaña" />
+
+    <EditText
+        android:id="@+id/eTxtdetalleCamp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Detalle de la campaña"
+        android:textColorHint="#ffa5b0cf"
+
+        android:layout_weight="0.15" />
+
+
+    <TextView
+        android:id="@+id/precio"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Precio" />
+
+    <EditText
+        android:id="@+id/eTxtPrecio"
+        android:layout_width="93dp"
+        android:layout_height="wrap_content"
+        android:inputType="numberDecimal"
+        android:ems="10"
+
+        />
+    <TextView
+        android:id="@+id/qDisp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Cantidad disponible" />
+
+    <EditText
+        android:id="@+id/eTxtqDisp"
+        android:layout_width="93dp"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:ems="10"
+
+        />
+
+    <TextView
+        android:id="@+id/url"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="URL foto" />
+
+    <EditText
+        android:id="@+id/eTxtUrl"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="showLocalidadSelected"
+        android:text="CREAR"
+        android:background="#3F51B5"
+        android:textColor="#fffbfffb" />
+
+</LinearLayout>
